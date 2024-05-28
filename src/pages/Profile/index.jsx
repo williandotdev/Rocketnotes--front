@@ -29,8 +29,8 @@ export function Profile() {
       old_password: passwordOld
 
     }
+    Object.assign({user: userUpdated}, updated)
 
-    const userUpdated = Object.assign(user: userUpdated, updated);
 
 
     
