@@ -90,7 +90,6 @@ function AuthProvider({ children }){
 
 function useAuth(){
     const context =  useContext(AuthContext);
-
     return context;
 }
 
