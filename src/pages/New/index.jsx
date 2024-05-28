@@ -50,7 +50,7 @@ export function New() {
       links
     });
     alert("Nota criada com Sucesso!");
-    navigate("/")
+    navigate(-1)
   }
 
   return (
